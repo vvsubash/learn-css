@@ -1,6 +1,7 @@
 <template>
+    <h1>Hello</h1>
     <button>
-        <slot />
+      Hello
     </button>
 </template>
 
@@ -11,6 +12,9 @@
 <style scoped>
 button {
     font-family: monospace;
+}
+h1 {
+    color: var(--pink-6)
 }
 
 </style>

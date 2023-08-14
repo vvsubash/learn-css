@@ -11,6 +11,6 @@ type Story = StoryObj<typeof BaseButton>
 export const SimpleBaseButton:Story = {
     render: () => ({
         components: {BaseButton},
-        template: '<BaseButton>Hello</BaseButton>'
+        template: '<BaseButton></BaseButton>'
     })
 }

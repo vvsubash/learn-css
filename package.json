@@ -24,6 +24,10 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "storybook": "7.2.3",
-    "storybook-addon-nuxt": "^1.3.3"
+    "storybook-addon-nuxt": "^1.3.3",
+    "postcss-jit-props": "^1.0.9"
+  },
+  "dependencies": {
+    "open-props": "^1.5.11"
   }
 }

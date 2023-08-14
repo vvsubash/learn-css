@@ -1,5 +1,13 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
+import OpenProps from 'open-props';
+
+// https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  devtools: { enabled: true },
- 
-})
+  devtools: {
+  enabled: true
+  },
+  postcss: {
+    plugins: {
+      'postcss-jit-props': OpenProps,
+    },
+  },
+});
